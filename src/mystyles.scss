@@ -1,3 +1,16 @@
+.p-speeddial {
+  position: fixed !important;
+  display: flex;
+  z-index: 1;
+  right: 20px;
+  bottom: 20px;
+}
+
+.p-speeddial-button.p-button.p-button-icon-only {
+  width: 3rem !important;
+  height: 3rem !important;
+}
+
 .p-menubar-button {
   position: absolute;
   right: 10px;
@@ -64,3 +77,9 @@ body{
 .p-menuitem-link:hover {
   background-color: rgb(77, 77, 77) !important;
 }
+
+.p-speeddial-action {
+  text-decoration: none
+}
+
+

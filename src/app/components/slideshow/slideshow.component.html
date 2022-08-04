@@ -4,6 +4,9 @@
     [responsiveOptions]="responsiveOptions"
     [containerStyle]="{ 'max-width': '100%' }"
     [numVisible]="5"
+    [circular]="true"
+    [autoPlay]="true" 
+    [transitionInterval]="2000"
   >
     <ng-template pTemplate="item" let-item>
       <img

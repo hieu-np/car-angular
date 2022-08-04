@@ -33,7 +33,7 @@ export class SlideshowComponent implements OnInit {
   constructor(private photoService: PhotoService) { }
 
   ngOnInit() {
-      this.photoService.getImages().then(images => this.images = images.slice(0,6));
+      this.photoService.getImages().then(images => this.images = images.slice(0,7));
       
   }
 }
